@@ -8,7 +8,9 @@
         "start": "next start",
         "lint": "tsc --noEmit && next lint",
         "lint:fix": "tsc --noEmit && next lint --fix",
-        "format": "prettier --write ."
+        "format": "prettier --write .",
+        "clean": "rm -rf .next",
+        "clean:all": "rm -rf .next && rm -rf node_modules"
     },
     "dependencies": {
         "@tanstack/react-query": "^5.55.2",
