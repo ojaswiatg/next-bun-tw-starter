@@ -21,6 +21,7 @@
         "paths": {
             "@root/*": ["./*"],
             "@src/*": ["./src/*"],
+            "@lib/*": ["./lib/*"],
             "@actions/*": ["./src/actions/*"],
             "@components/*": ["./src/components/*"],
             "@constants/*": ["./src/constants/*"],
