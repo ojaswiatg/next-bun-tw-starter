@@ -1,3 +1,4 @@
+import Providers from "@providers/Providers";
 import "@root/global/styles/global.scss";
 import type { Metadata } from "next";
 import localFont from "next/font/local";
@@ -29,7 +30,7 @@ export default function RootLayout({
                 className={`${geistSans.variable} ${geistMono.variable} antialiased`}
             >
                 <p className="text-red-600 text-2xl">Tailwind working</p>
-                {children}
+                <Providers>{children}</Providers>
             </body>
         </html>
     );
